@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ronda Accounting & Advisors LLC</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Accounting, Payroll, Workers’ Comp and Tax solutions for contractors and SMBs. Bilingual: EN/ES. West Palm Beach, FL.">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.jpg" alt="Ronda Accounting Logo"/>
+        <div>
+          <div class="title">Ronda Accounting & Advisors LLC</div>
+          <div class="small">Accounting • Payroll • Workers’ Comp</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#blog" data-i18n="nav_blog">Blog</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <button class="lang-toggle" onclick="switchLang(lang==='en'?'es':'en')">EN / ES</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <section class="hero">
+      <div>
+        <h1 data-i18n="hero_title">We support your business with accounting and tax solutions that give you peace of mind.</h1>
+        <p data-i18n="hero_sub">Clarity, compliance, and cash flow—so you can focus on growth.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://rondaaccounting.agentcrm.io/widget/bookings/ronda2024" target="_blank" rel="noopener" data-i18n="cta_book">Book a Consultation</a>
+          <a class="btn btn-outline" href="tel:+17869013834" data-i18n="cta_call">Call Now</a>
+        </div>
+        <div class="badge-grid">
+          <div class="badge">
+            <div id="stat-years">+7</div>
+            <div class="small" id="stat-years-label">years helping businesses</div>
+          </div>
+          <div class="badge">
+            <div id="stat-clients">60+</div>
+            <div class="small" id="stat-clients-label">clients in trades & services</div>
+          </div>
+          <div class="badge">
+            <div id="stat-rating">5.0★</div>
+            <div class="small" id="stat-rating-label">average satisfaction</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1600&auto=format&fit=crop" alt="Modern professional office background">
+        <div class="overlay"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 data-i18n="why_title">Why choose Ronda Advisors?</h2>
+      <p class="lead" data-i18n="why_p">Professional bilingual firm serving contractors and SMBs with standardized processes and clear reporting.</p>
+    </section>
+
+    <section class="section" id="services">
+      <h2 data-i18n="services_title">Our Services</h2>
+      <p class="lead" data-i18n="services_sub">End-to-end solutions to keep your business clean and compliant.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="small">01</div>
+          <h3 data-i18n="svc1">Monthly Accounting</h3>
+          <p data-i18n="svc1p">Monthly closes, reconciliations, reporting and KPIs for better decisions.</p>
+        </div>
+        <div class="card">
+          <div class="small">02</div>
+          <h3 data-i18n="svc2">Payroll (ADP)</h3>
+          <p data-i18n="svc2p">Setup, weekly/biweekly runs, payroll taxes and reporting.</p>
+        </div>
+        <div class="card">
+          <div class="small">03</div>
+          <h3 data-i18n="svc3">Workers’ Compensation</h3>
+          <p data-i18n="svc3p">Pay‑As‑You‑Go, stress‑free audits, correct class codes and COIs.</p>
+        </div>
+        <div class="card">
+          <div class="small">04</div>
+          <h3 data-i18n="svc4">Tax Preparation & Planning</h3>
+          <p data-i18n="svc4p">Business & personal, S‑Corp/1065/1120, estimates and optimization.</p>
+        </div>
+        <div class="card">
+          <div class="small">05</div>
+          <h3 data-i18n="svc5">Tax Advisory</h3>
+          <p data-i18n="svc5p">Entity choice, reasonable compensation, and proactive strategies.</p>
+        </div>
+        <div class="card">
+          <div class="small">06</div>
+          <h3 data-i18n="svc6">Executive Assistance</h3>
+          <p data-i18n="svc6p">Invoicing, estimates, contracts and AR follow-ups for your ops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="banner">
+        <div data-i18n="wc_banner">Pay‑As‑You‑Go Workers’ Comp — no surprises at audit time.</div>
+        <a class="cta" href="https://rondaaccounting.agentcrm.io/widget/bookings/ronda2024" target="_blank" rel="noopener" data-i18n="wc_cta">Schedule now</a>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <h2 data-i18n="testi_title">What clients say</h2>
+      <div class="testimonials">
+        <div class="quote">“<span data-i18n="t1">We moved from chaos to process. Payroll and Workers’ Comp are clean and predictable.</span>”<div class="small">— J. Cardoza — Landscaping</div></div>
+        <div class="quote">“<span data-i18n="t2">Clear monthly reports and advice that reduced our taxes.</span>”<div class="small">— M. Rivera — HVAC</div></div>
+        <div class="quote">“<span data-i18n="t3">Billing, contracts and collections streamlined—operations run smoother now.</span>”<div class="small">— K. Pérez — Roofing</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <h2 data-i18n="blog_title">Blog & Resources</h2>
+      <div class="blog">
+        <article>
+          <div class="thumb"></div>
+          <div class="body">
+            <h3 data-i18n="b1">LLC vs S‑Corp: What’s Best for Your Business?</h3>
+            <p class="small">2 min read</p>
+          </div>
+        </article>
+        <article>
+          <div class="thumb"></div>
+          <div class="body">
+            <h3 data-i18n="b2">How Pay‑As‑You‑Go Workers’ Comp Helps Cash Flow</h3>
+            <p class="small">3 min read</p>
+          </div>
+        </article>
+        <article>
+          <div class="thumb"></div>
+          <div class="body">
+            <h3 data-i18n="b3">Five Tax Deductions Small Business Owners Forget</h3>
+            <p class="small">2 min read</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 data-i18n="contact_title">Let’s talk about your business</h2>
+      <p class="lead" data-i18n="contact_p">Share your situation and we’ll propose the best plan.</p>
+      <div class="contact">
+        <form id="contact-form" class="form">
+          <input name="name" required placeholder="Full name" data-i18n-placeholder="form_name">
+          <input name="email" type="email" required placeholder="Email" data-i18n-placeholder="form_email">
+          <textarea name="message" rows="6" required placeholder="Message" data-i18n-placeholder="form_msg"></textarea>
+          <button type="submit" data-i18n="form_send">Send message</button>
+        </form>
+        <div>
+          <div class="card">
+            <h3>Ronda Accounting & Advisors LLC</h3>
+            <p class="small">5707 South Dixie Hwy, Suite F, West Palm Beach, FL 33406</p>
+            <p class="small"><a href="tel:+17869013834">(786) 901‑3834</a> · <a href="mailto:rondabusiness1@gmail.com">rondabusiness1@gmail.com</a></p>
+            <p class="small"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a> · <a href="https://wa.me/17869013834" target="_blank" rel="noopener">WhatsApp</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container inner">
+      <div class="brand">
+        <img src="assets/logo.jpg" alt="Ronda Accounting Logo"/>
+        <div class="small">© <span id="yr"></span> Ronda Accounting & Advisors LLC — <span data-i18n="rights">All rights reserved.</span></div>
+      </div>
+      <div class="small">www.rondaaccounting.com</div>
+    </div>
+  </footer>
+
+<script src="app.js"></script>
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
